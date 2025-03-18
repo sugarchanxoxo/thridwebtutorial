@@ -43,11 +43,15 @@
   },
   "../node_modules/thirdweb/dist/esm/extensions/erc20/write/approve.js -> ../read/decimals.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/erc20/write/approve.js -> ../read/decimals.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_read_decimals_js.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/extensions/erc20/write/transfer.js -> ../read/decimals.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/erc20/write/transfer.js -> ../read/decimals.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_read_decimals_js.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/extensions/erc721/read/getNFT.js -> ../__generated__/IERC721A/read/ownerOf.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/erc721/read/getNFT.js -> ../__generated__/IERC721A/read/ownerOf.js",
@@ -109,7 +113,9 @@
   },
   "../node_modules/thirdweb/dist/esm/react/core/hooks/others/useTokenInfo.js -> ../../../../extensions/erc20/read/getCurrencyMetadata.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/core/hooks/others/useTokenInfo.js -> ../../../../extensions/erc20/read/getCurrencyMetadata.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_read_getCurrencyMetadata_js.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/ConnectWallet/Details.js -> ../../../../wallets/in-app/web/lib/auth/index.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/ConnectWallet/Details.js -> ../../../../wallets/in-app/web/lib/auth/index.js",
@@ -197,7 +203,9 @@
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/ConnectWallet/screens/Buy/LazyBuyScreen.js -> ./BuyScreen.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/ConnectWallet/screens/Buy/LazyBuyScreen.js -> ./BuyScreen.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_react_web_ui_ConnectWallet_screens_Buy_BuyS-8010e2.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/ConnectWallet/screens/LinkProfileScreen.js -> ../../../wallets/in-app/InAppWalletConnectUI.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/ConnectWallet/screens/LinkProfileScreen.js -> ../../../wallets/in-app/InAppWalletConnectUI.js",
@@ -5516,6 +5524,38 @@
     "files": [
       "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_wallets_wallet-connect_controller_js.js"
     ]
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-calls-status.js -> ../coinbase/coinbase-web.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-calls-status.js -> ../coinbase/coinbase-web.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-calls-status.js -> ../in-app/core/eip5972/in-app-wallet-calls.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-calls-status.js -> ../in-app/core/eip5972/in-app-wallet-calls.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-capabilities.js -> ../coinbase/coinbase-web.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-capabilities.js -> ../coinbase/coinbase-web.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-capabilities.js -> ../in-app/core/eip5972/in-app-wallet-capabilities.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-capabilities.js -> ../in-app/core/eip5972/in-app-wallet-capabilities.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-capabilities.js -> ../smart/lib/smart-wallet-capabilities.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/eip5792/get-capabilities.js -> ../smart/lib/smart-wallet-capabilities.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/eip5792/send-calls.js -> ../coinbase/coinbase-web.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/eip5792/send-calls.js -> ../coinbase/coinbase-web.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/eip5792/send-calls.js -> ../in-app/core/eip5972/in-app-wallet-calls.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/eip5792/send-calls.js -> ../in-app/core/eip5972/in-app-wallet-calls.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/wallets/getAllWalletsList.js -> ./__generated__/wallet-infos.js": {
+    "id": "../node_modules/thirdweb/dist/esm/wallets/getAllWalletsList.js -> ./__generated__/wallet-infos.js",
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/wallets/in-app/core/wallet/enclave-wallet.js -> ../../../../rpc/actions/eth_getTransactionCount.js": {
     "id": "../node_modules/thirdweb/dist/esm/wallets/in-app/core/wallet/enclave-wallet.js -> ../../../../rpc/actions/eth_getTransactionCount.js",

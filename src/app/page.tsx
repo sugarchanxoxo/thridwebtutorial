@@ -1,5 +1,28 @@
+"use client";
+
 import Image from "next/image";
 import { ConnectButton } from "thirdweb/react";
+import { client } from "./client";
+import { createWallet } from "thirdweb/wallets";
+
+function CustomWallets() {
+  const recommendedWallets = [createWallet("io.metamask")];
+  const wallets = [
+    createWallet("io.metamask"),
+    createWallet("com.coinbase.wallet"),
+  ];
+
+  return (
+    <ConnectButton
+      client={client}
+      wallets={wallets}
+      recommendedWallets={recommendedWallets}
+      connectModal={{
+        size: "compact",
+      }}
+    />
+  );
+}
 
 export default function Home() {
   return (
@@ -13,7 +36,7 @@ export default function Home() {
           height={38}
           priority
         />
-        <ConnectButton client={client} />
+        <CustomWallets />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
