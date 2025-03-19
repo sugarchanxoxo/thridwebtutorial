@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { ConnectButton, ConnectEmbed, useActiveAccount } from "thirdweb/react";
 import { client } from "./client";
-import { createWallet } from "thirdweb/wallets";
+import { createWallet, inAppWallet } from "thirdweb/wallets";
 
 function CustomWallets() {
   const recommendedWallets = [createWallet("io.metamask")];
@@ -43,6 +43,31 @@ function CustomConnectEmbed() {
   );
 }
 
+function InAppWallets() {
+  return (
+    <div>
+      <ConnectButton client={client} wallets={[inAppWallet()]} />
+    </div>
+  );
+}
+
+function CustomInAppWallets() {
+  return (
+    <div>
+      <ConnectButton
+        client={client}
+        wallets={[
+          inAppWallet({
+            auth: {
+              options: ["google", "apple", "email"],
+            },
+          }),
+        ]}
+      />
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -57,6 +82,8 @@ export default function Home() {
         />
         <CustomWallets />
         <CustomConnectEmbed />
+        <InAppWallets />
+        <CustomInAppWallets />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
