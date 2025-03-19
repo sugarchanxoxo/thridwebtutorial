@@ -1,7 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { ConnectButton, ConnectEmbed, useActiveAccount } from "thirdweb/react";
+import {
+  ConnectButton,
+  ConnectEmbed,
+  useActiveAccount,
+  useConnect,
+  useDisconnect,
+  useActiveWallet,
+  useAutoConnect,
+} from "thirdweb/react";
 import { client } from "./client";
 import { createWallet, inAppWallet } from "thirdweb/wallets";
 
@@ -20,6 +28,7 @@ function CustomWallets() {
       connectModal={{
         size: "compact",
       }}
+      connectButton={{ label: "Connect Wallet" }}
     />
   );
 }
@@ -68,6 +77,51 @@ function CustomInAppWallets() {
   );
 }
 
+function SingleWalletFlow() {
+  // Get active account and wallet
+  const account = useActiveAccount();
+  const connectedWallet = useActiveWallet();
+
+  // Get connect and disconnect functions
+  const { connect } = useConnect();
+  const { disconnect } = useDisconnect();
+
+  // Auto connect wallet on page load => not working in this example
+  const { data } = useAutoConnect({
+    client: client,
+    wallets: [createWallet("io.metamask")],
+    onConnect(wallet) {
+      console.log("Auto connected wallet", wallet);
+    },
+  });
+
+  return (
+    <div>
+      {account && connectedWallet ? (
+        <button
+          className="bg-red-500 text-white-400 px-4 py-2 rounded-md"
+          onClick={() => disconnect(connectedWallet)}
+        >
+          Disconnect
+        </button>
+      ) : (
+        <button
+          className="bg-blue-500 text-white-400 px-4 py-2 rounded-md"
+          onClick={() =>
+            connect(async () => {
+              const wallet = createWallet("io.metamask");
+              await wallet.connect({ client: client });
+              return wallet;
+            })
+          }
+        >
+          Metamask
+        </button>
+      )}
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -84,6 +138,7 @@ export default function Home() {
         <CustomConnectEmbed />
         <InAppWallets />
         <CustomInAppWallets />
+        <SingleWalletFlow />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
