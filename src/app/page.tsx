@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ConnectButton } from "thirdweb/react";
+import { ConnectButton, ConnectEmbed, useActiveAccount } from "thirdweb/react";
 import { client } from "./client";
 import { createWallet } from "thirdweb/wallets";
 
@@ -24,6 +24,25 @@ function CustomWallets() {
   );
 }
 
+function CustomConnectEmbed() {
+  const account = useActiveAccount();
+  const wallets = [
+    createWallet("io.metamask"),
+    createWallet("com.coinbase.wallet"),
+  ];
+
+  return (
+    <div>
+      <ConnectEmbed
+        client={client}
+        wallets={wallets}
+        showThirdwebBranding={false}
+      />
+      {account && <ConnectButton client={client} />}
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -37,6 +56,7 @@ export default function Home() {
           priority
         />
         <CustomWallets />
+        <CustomConnectEmbed />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
