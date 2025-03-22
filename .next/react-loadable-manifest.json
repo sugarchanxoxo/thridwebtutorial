@@ -543,7 +543,9 @@
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/fetch-proofs-for-claimers.js -> ../../../extensions/erc20/read/decimals.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/fetch-proofs-for-claimers.js -> ../../../extensions/erc20/read/decimals.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_read_decimals_js.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc1155/__generated__/IDropSinglePhase1155/read/claimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc1155/__generated__/IDropSinglePhase1155/read/claimCondition.js",
@@ -555,19 +557,27 @@
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc20/drops/read/getActiveClaimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc20/drops/read/getActiveClaimCondition.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_drops_read_getActiveClaimC-b03e3b.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/__generated__/IDropSinglePhase/read/claimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/__generated__/IDropSinglePhase/read/claimCondition.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IDropSingle-3c14fc.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/drops/read/getActiveClaimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/drops/read/getActiveClaimCondition.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721_drops_read_getActiveClaim-07008f.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ./fetch-proofs-for-claimers.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ./fetch-proofs-for-claimers.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_utils_extensions_drops_fetch-proofs-for-cla-b21589.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/common/__generated__/IContractMetadata/write/setContractURI.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/common/__generated__/IContractMetadata/write/setContractURI.js",
@@ -599,7 +609,9 @@
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/hash-entry.js -> ../../../extensions/erc20/read/decimals.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/hash-entry.js -> ../../../extensions/erc20/read/decimals.js",
-    "files": []
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_read_decimals_js.js"
+    ]
   },
   "../node_modules/thirdweb/dist/esm/utils/ipfs.js -> ../storage/upload.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/ipfs.js -> ../storage/upload.js",
