@@ -37,6 +37,22 @@
       "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_utils_bytecode_resolveImplementation_js.js"
     ]
   },
+  "../node_modules/thirdweb/dist/esm/extensions/erc1155/drops/write/updateMetadata.js -> ../../../../utils/ipfs.js": {
+    "id": "../node_modules/thirdweb/dist/esm/extensions/erc1155/drops/write/updateMetadata.js -> ../../../../utils/ipfs.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/extensions/erc1155/write/mintTo.js -> ../../../storage/upload.js": {
+    "id": "../node_modules/thirdweb/dist/esm/extensions/erc1155/write/mintTo.js -> ../../../storage/upload.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/extensions/erc1155/write/sigMint.js -> ../../../storage/upload.js": {
+    "id": "../node_modules/thirdweb/dist/esm/extensions/erc1155/write/sigMint.js -> ../../../storage/upload.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/extensions/erc1155/write/sigMint.js -> ../../../utils/extensions/convert-erc20-amount.js": {
+    "id": "../node_modules/thirdweb/dist/esm/extensions/erc1155/write/sigMint.js -> ../../../utils/extensions/convert-erc20-amount.js",
+    "files": []
+  },
   "../node_modules/thirdweb/dist/esm/extensions/erc20/drops/write/claimTo.js -> ../../../../utils/units.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/erc20/drops/write/claimTo.js -> ../../../../utils/units.js",
     "files": []
@@ -61,33 +77,23 @@
   },
   "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc1155/__generated__/IERC1155/read/balanceOf.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc1155/__generated__/IERC1155/read/balanceOf.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc1155___generated___IERC1155_r-cf1c82.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc1155/__generated__/IERC1155/read/isApprovedForAll.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc1155/__generated__/IERC1155/read/isApprovedForAll.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc1155___generated___IERC1155_r-487c26.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc721/__generated__/IERC721A/read/getApproved.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc721/__generated__/IERC721A/read/getApproved.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IERC721A_re-fa98b9.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc721/__generated__/IERC721A/read/isApprovedForAll.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc721/__generated__/IERC721A/read/isApprovedForAll.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IERC721A_re-6bc863.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc721/__generated__/IERC721A/read/ownerOf.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/utils.js -> ../../erc721/__generated__/IERC721A/read/ownerOf.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IERC721A_re-780d32.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/write/createListing.js -> ../../../erc20/read/decimals.js": {
     "id": "../node_modules/thirdweb/dist/esm/extensions/marketplace/direct-listings/write/createListing.js -> ../../../erc20/read/decimals.js",
@@ -221,39 +227,27 @@
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/BuyDirectListingButton/index.js -> ../../../../../../extensions/erc20/write/getApprovalForTransaction.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/BuyDirectListingButton/index.js -> ../../../../../../extensions/erc20/write/getApprovalForTransaction.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_write_getApprovalForTransa-c00057.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/BuyDirectListingButton/index.js -> ../../../../../../extensions/marketplace/direct-listings/write/buyFromListing.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/BuyDirectListingButton/index.js -> ../../../../../../extensions/marketplace/direct-listings/write/buyFromListing.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_marketplace_direct-listings_writ-db86ec.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc1155/drops/write/claimTo.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc1155/drops/write/claimTo.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc1155_drops_write_claimTo_js.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc20/drops/write/claimTo.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc20/drops/write/claimTo.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_drops_write_claimTo_js.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc20/write/getApprovalForTransaction.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc20/write/getApprovalForTransaction.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_write_getApprovalForTransa-c00057.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc721/drops/write/claimTo.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/ClaimButton/index.js -> ../../../../../../extensions/erc721/drops/write/claimTo.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721_drops_write_claimTo_js.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/common/read/getContractMetadata.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/common/read/getContractMetadata.js",
@@ -261,15 +255,11 @@
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc1155/__generated__/IERC1155/read/isApprovedForAll.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc1155/__generated__/IERC1155/read/isApprovedForAll.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc1155___generated___IERC1155_r-487c26.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc1155/__generated__/IERC1155/write/setApprovalForAll.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc1155/__generated__/IERC1155/write/setApprovalForAll.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc1155___generated___IERC1155_w-b8599b.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc1155/read/getNFT.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc1155/read/getNFT.js",
@@ -277,21 +267,15 @@
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/__generated__/IERC721A/read/getApproved.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/__generated__/IERC721A/read/getApproved.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IERC721A_re-fa98b9.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/__generated__/IERC721A/read/isApprovedForAll.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/__generated__/IERC721A/read/isApprovedForAll.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IERC721A_re-6bc863.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/__generated__/IERC721A/write/setApprovalForAll.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/__generated__/IERC721A/write/setApprovalForAll.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IERC721A_wr-17b30d.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/read/getNFT.js": {
     "id": "../node_modules/thirdweb/dist/esm/react/web/ui/prebuilt/thirdweb/CreateDirectListingButton/index.js -> ../../../../../../extensions/erc721/read/getNFT.js",
@@ -549,6 +533,10 @@
     "id": "../node_modules/thirdweb/dist/esm/utils/contract/fetchContractMetadata.js -> ../../storage/download.js",
     "files": []
   },
+  "../node_modules/thirdweb/dist/esm/utils/extensions/convert-erc20-amount.js -> ../../extensions/erc20/read/decimals.js": {
+    "id": "../node_modules/thirdweb/dist/esm/utils/extensions/convert-erc20-amount.js -> ../../extensions/erc20/read/decimals.js",
+    "files": []
+  },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/fetch-proofs-for-claimers.js -> ../../../contract/contract.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/fetch-proofs-for-claimers.js -> ../../../contract/contract.js",
     "files": []
@@ -559,39 +547,51 @@
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc1155/__generated__/IDropSinglePhase1155/read/claimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc1155/__generated__/IDropSinglePhase1155/read/claimCondition.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc1155___generated___IDropSingl-6bd013.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc1155/drops/read/getActiveClaimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc1155/drops/read/getActiveClaimCondition.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc1155_drops_read_getActiveClai-539f38.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc20/drops/read/getActiveClaimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc20/drops/read/getActiveClaimCondition.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc20_drops_read_getActiveClaimC-b03e3b.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/__generated__/IDropSinglePhase/read/claimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/__generated__/IDropSinglePhase/read/claimCondition.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721___generated___IDropSingle-3c14fc.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/drops/read/getActiveClaimCondition.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ../../../extensions/erc721/drops/read/getActiveClaimCondition.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_extensions_erc721_drops_read_getActiveClaim-07008f.js"
-    ]
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ./fetch-proofs-for-claimers.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-claim-params.js -> ./fetch-proofs-for-claimers.js",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_thirdweb_dist_esm_utils_extensions_drops_fetch-proofs-for-cla-b21589.js"
-    ]
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/common/__generated__/IContractMetadata/write/setContractURI.js": {
+    "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/common/__generated__/IContractMetadata/write/setContractURI.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/common/read/getContractMetadata.js": {
+    "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/common/read/getContractMetadata.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc1155/__generated__/IDrop1155/write/setClaimConditions.js": {
+    "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc1155/__generated__/IDrop1155/write/setClaimConditions.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc1155/__generated__/IDropSinglePhase1155/write/setClaimConditions.js": {
+    "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc1155/__generated__/IDropSinglePhase1155/write/setClaimConditions.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc721/__generated__/IDrop/write/setClaimConditions.js": {
+    "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc721/__generated__/IDrop/write/setClaimConditions.js",
+    "files": []
+  },
+  "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc721/__generated__/IDropSinglePhase/write/setClaimConditions.js": {
+    "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/get-multicall-set-claim-claim-conditon-transactions.js -> ../../../extensions/erc721/__generated__/IDropSinglePhase/write/setClaimConditions.js",
+    "files": []
   },
   "../node_modules/thirdweb/dist/esm/utils/extensions/drops/hash-entry.js -> ../../../contract/contract.js": {
     "id": "../node_modules/thirdweb/dist/esm/utils/extensions/drops/hash-entry.js -> ../../../contract/contract.js",
